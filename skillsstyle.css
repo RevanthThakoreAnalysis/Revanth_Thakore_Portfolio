@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --main-bg-color: rgb(11, 11, 11);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: white;
+}
+
+nav {
+    background-color: black;
+    min-height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#element {
+    color: rgb(0, 211, 255);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 1vw;
+}
+
+nav ul li:hover {
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.left {
+    font-size: 2vw;
+}
+
+.section {
+    background-image: url(images/footballground.jpg);
+    background-size: 100% 102%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    width: 7%;
+    height: auto;
+    color: white;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: -800px;
+}
+
+.box1 {
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 30px;
+    position: relative;
+    background-color: rgb(0, 211, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box2 {
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 30px;
+    position: relative;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box p {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.section1 {
+    display: flex;
+    position: relative;
+}
+
+.section2 {
+    display: flex;
+    position: relative;
+}
+
+.ss1 {
+    left: 5vw;
+}
+
+.ss2 {
+    top: 8vw;
+    left: 10vw;
+}
+
+.ss3 {
+    top: -9vw;
+    left: 11vw;
+}
+
+.ss4 {
+    top: -20vw;
+    left: 12vw;
+}
+
+.ss5 {
+    top: 15vw;
+    left: 12vw;
+}
+
+.ss6 {
+    top: -13vw;
+    left: 18vw;
+}
+
+.ss7 {
+    top: 16vw;
+    left: 21vw;
+}
+
+.ss8 {
+    top: -17vw;
+    left: 27vw;
+}
+
+.ss9 {
+    top: 9vw;
+    left: 25vw;
+}
+
+.ss10 {
+    top: 0vw;
+    left: 12vw;
+}
+
+.ss11 {
+    top: -3vw;
+    left: 21vw;
+}
+
+.ts1 {
+    left: 66vw;
+    top: 0vw;
+}
+
+.ts2 {
+    top: 15vw;
+    left: 64vw;
+}
+
+.ts3 {
+    top: -20vw;
+    left: 62vw;
+}
+
+.ts4 {
+    top: -8vw;
+    left: 28vw;
+}
+
+.ts5 {
+    top: -17vw;
+    left: 40vw;
+}
+
+.ts6 {
+    top: -20vw;
+    left: 28vw;
+}
+
+.ts7 {
+    top: 15vw;
+    left: 23vw;
+}
+
+.ts8 {
+    top: 0vw;
+    left: 20vw;
+}
+
+.ts9 {
+    top: 14vw;
+    left: 37vw;
+}
+
+.ts10 {
+    top: -2vw;
+    left: 33vw;
+}
+
+.ts11 {
+    top: -10vw;
+    left: 44vw;
+}
+
+.text summary {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    width: 10.5vw;
+    margin: 0.3vw 0px 0vw 1vw;
+}
+
+.text p {
+    font-family: 'Roboto', sans-serif;
+    color: white(255, 2, 255);
+    background-color: black;
+    border: 0.2vw solid black;
+    width: 5vw;
+}
+
+.player {
+    width: 1.6vw;
+    height: 1.6vw;
+    border: 0.2vw solid black;
+    border-radius: 3vw;
+    position: relative
+}
+
+.player:hover {
+    cursor: pointer;
+}
+
+.soft {
+    background-color: rgb(0, 211, 255);
+}
+
+.tech {
+    background-color: rgb(255, 0, 0);
+}
+
+footer {
+    background-color: black;
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    list-style: none;
+    margin: 0px 1.5vw;
+}
+
+footer ul li:hover {
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.leftFooter {
+    font-size: 3.0vw;
+}
+
+.bottomFooter {
+    justify-content: space-around;
+    align-items: end;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: black;
+    color: white;
+  }
+  .hiddenSection{
+    visibility: hidden;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 3vw;
+  }
+  @media screen and (max-width: 1050px){
+    .section1{
+        display: none;
+    }
+    .section{
+        background-image: none;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: auto;
+    }
+    .purple{
+        color: rgb(0, 211, 255);
+    }
+    .hiddenSection{
+        visibility: visible;
+    }
+    .hiddenSection img{
+        width: 15vw;
+        margin: 4px;
+    }
+    .technicalSkills{
+        text-align: start;
+    }
+    .TS11{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .TS12{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+  }

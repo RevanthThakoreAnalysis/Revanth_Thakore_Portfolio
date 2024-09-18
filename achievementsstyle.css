@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --main-bg-color: rgb(11, 11, 11);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: white;
+}
+nav {
+    background-color: black;
+    min-height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#element {
+    color: rgb(0, 211, 255);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 1vw;
+}
+
+nav ul li:hover {
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.left {
+    font-size: 2vw;
+}
+.accreditations{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 3vw;
+}
+.secondSection {
+    margin: 1vw 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+}
+
+.leftSecondSection {
+    width: 63vw;
+    height: 50vh;
+    padding: 0px 1vw;
+    line-height: 250%;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rightSecondSection {
+    width: 30vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightSecondSection video{
+    width:29vw;
+}
+.rightSecondSection img{
+    width:20vw;
+}
+.thirdSection {
+    margin: 1vw 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+}
+
+.leftThirdSection {
+    width: 30vw;
+    height: 50vh;
+    display: flex;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.leftThirdSection img {
+    width: 30vw;
+    height: 50vh;
+}
+
+.rightThirdSection {
+    width: 70vw;
+    height: 50vh;
+    padding: 0px 20px;
+    line-height: 250%;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+footer {
+    background-color: black;
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: auto;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    list-style: none;
+    margin: 0px 1.5vw;
+}
+
+footer ul li:hover {
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.leftFooter{
+    font-size: 3.0vw;
+}
+.bottomFooter{
+    justify-content: space-around;
+    align-items:end;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: black;
+    color: white;
+  }
+  .testimonials {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vw;
+    text-align: center;
+    margin: 1vw 0px 0px 0px;
+}
+.appreciations{
+    height: auto;
+}
+.purple {
+    color: rgb(0, 211, 255);
+}
+
+.fourthSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vw 0px 0px 0px;
+    background-color: rgb(1, 1, 1);
+}
+
+.fourthSection img {
+    width: 16vw;
+    height: 40vh;
+}
+
+.fourthSection1 {
+    width: 20vw;
+    height: 65vh;
+    padding: 0px 2vw 0px 0px
+
+}
+
+.fourthSectionText2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8vw;
+}
+
+.fourthSectionText2 audio {
+    margin: 1vw 2vw;
+    width: 80%;
+}
+
+.fourthSectionText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 0.8vw;
+}
+
+.fourthSection2 {
+    width: 20vw;
+    height: 65vh;
+    padding: 0px 2vw;
+
+}
+
+.fourthSection3 {
+    width: 20vw;
+    height: 65vh;
+    padding: 0px 2vw;
+}
+
+.fourthSection4 {
+    width: 20vw;
+    height: 65vh;
+}
+
+.fourthSection5 {
+    width: 20vw;
+    height: 65vh;
+    padding: 0px 0px 0px 2vw;
+}
+
+.TSection {
+    margin: 1vw 0px;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+    display: flex;
+
+}
+
+.leftTSection {
+    width: 50vw;
+    height: 40vh;
+    padding: 0px 1vw;
+    line-height: 250%;
+    text-align: justify;
+}
+.leftTSection1 {
+    width: 50vw;
+    height: 80vh;
+    padding: 0px 1vw;
+    line-height: 250%;
+    text-align: justify;
+}
+
+.rightTSection {
+    width: 10vw;
+    height: 10vw;
+    margin-right: 1vw;
+    
+}
+.rightTSection img{
+    width: 10vw;
+    border-radius: 0;
+}
+.certifications{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.C1{
+    width: 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.C1 img{
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6vw;
+}
+.A1{
+    width: 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.A1 img{
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6vw;
+}
+.title{
+    color: rgb(0, 211, 255);
+}
+.designation{
+    color: rgb(0, 211, 255);
+}

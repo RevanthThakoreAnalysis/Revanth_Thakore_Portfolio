@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+:root {
+    --main-bg-color: rgb(11, 11, 11);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: white;
+}
+nav {
+    background-color: black;
+    min-height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#element {
+    color: rgb(0, 211, 255);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 1vw;
+}
+
+nav ul li:hover {
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.left {
+    font-size: 2vw;
+}
+.firstSection {
+    display: block;
+    justify-content: space-around;
+}
+
+.leftSection {
+    background-color: rgb(1, 1, 1);
+    font-size: 3.6vw;
+    text-align: center;
+}
+
+.purple {
+    color: rgb(0, 211, 255);
+}
+
+.rightSection {
+    width: 100%;
+    height: 71vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightSection img {
+    width: 65vw;
+    height: 71vh;
+
+}
+
+/* .image-slideshow {
+    box-sizing: border-box;
+    max-width: 100vw;
+    position: relative;
+    margin: auto;
+  }
+  img {
+    width: 100%
+  }
+  .fade {
+    animation-name: fade;
+    animation-duration: 2s;
+  }
+  @keyframes fade {
+    from {opacity: .5}
+    to {opacity: 1}
+  } */
+
+.slidercontainer {
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main hr {
+    border: none;
+    height: 0.2vw;
+    background-color: black;
+}
+
+.secondSection {
+    margin: 1vw 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2vw;
+}
+/* @media screen and (max-width:1000px) {
+    .secondSection{
+        display: block;
+        font-size: 2.1vw;
+        text-align: center;
+        margin: 0.1vw 0.1vw;
+    }
+    .leftSecondSection{
+        display: block;
+    }
+    .rightSecondSection{
+        display: block;
+    }
+} */
+.leftSecondSection {
+    width: 70vw;
+    height: 50vh;
+    padding: 0px 1vw;
+    line-height: 250%;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rightSecondSection {
+    width: 30vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.thirdSection {
+    margin: 1vw 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2vw;
+}
+
+.leftThirdSection {
+    width: 30vw;
+    height: 50vh;
+    display: flex;
+    padding: 0px 1vw;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.leftThirdSection img {
+    width: 30vw;
+    height: 50vh;
+}
+
+.rightThirdSection {
+    width: 70vw;
+    height: 50vh;
+    padding: 0px 1vw;
+    line-height: 250%;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.testimonials {
+    font-family: 'Roboto', sans-serif;
+    font-size: 404%;
+    text-align: center;
+    margin: 1vw 0px 0px 0px;
+}
+
+.fourthSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vw 0px 0px 0px;
+    background-color: rgb(1, 1, 1);
+}
+
+.fourthSection img {
+    width: 16vw;
+    height: 40vh;
+    border-radius: 50vw;
+}
+
+.fourthSection1 {
+    width: 20vw;
+    height: 65vh;
+    padding: 0px 2vw 0px 0px
+
+}
+
+.fourthSectionText2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8vw;
+}
+
+.fourthSectionText2 audio {
+    margin: 1vw 2vw;
+    width: 80%;
+}
+
+.fourthSectionText {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 0.8vw;
+}
+
+.fourthSection2 {
+    width: 20vw;
+    height: 65vh;
+    padding: 0px 2vw;
+
+}
+
+.fourthSection3 {
+    width: 20vw;
+    height: 65vh;
+    padding: 0px 2vw;
+}
+
+.fourthSection4 {
+    width: 20vw;
+    height: 65vh;
+}
+
+.fourthSection5 {
+    width: 20vw;
+    height: 65vh;
+    padding: 0px 0px 0px 2vw;
+}
+
+footer {
+    background-color: black;
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    list-style: none;
+    margin: 0px 1.5vw;
+}
+
+footer ul li:hover {
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.leftFooter{
+    font-size: 3.0vw;
+}
+.bottomFooter{
+    justify-content: space-around;
+    align-items:end;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: black;
+  color: white;
+}
